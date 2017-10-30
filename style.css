@@ -3,7 +3,7 @@ body {
 	margin: -20px 0 0 0;
 	text-align: center;
 	font-family: Georgia, serif;
-	background: #f4f4f4 url("//C:/Users/amber_alger/Downloads/connect.png") repeat right top;
+	background: #f4f4f4 url("images/connect.png") repeat right top;
 }
 
 body a:hover {
@@ -14,9 +14,13 @@ body a:hover {
 		width: 960px;
 		margin: auto;
 }
+.header-content {
+		width: 960px;
+		margin: auto;
+}
 
 header {
-	background: #f4f4f4 url("//C:/Users/amber_alger/Downloads/cubes.png") repeat right top;
+	background: #f4f4f4 url("images/cubes.png") repeat right top;
 	height: 110px;
 	font-family: Georgia, serif;
 	border-bottom: #cacaca 2px solid;
@@ -24,14 +28,14 @@ header {
 }
 
 .logo {
-	margin-top: 44px;
-	margin-left: 150px;
+	margin-top: 52px;
 	display: block;
 	float: left;
 	background-color: #efefef;
 	color: #007ab9;
 	padding:15px;
 	border-radius: 5px 5px 0 0;
+	font-size: 28px;
 }
 
 .nav {
@@ -53,6 +57,8 @@ header li {
 
 h2 {
 	color: #007ab9;
+	font-size: 26px;
+	font-weight: bold;
 }
 
 .connect {
@@ -67,6 +73,10 @@ h2 {
 
 .connect-icon {
 	width: 50px;
+}
+
+.connect-icon:hover {
+    opacity: .4;
 }
 
 .main-content {
@@ -86,28 +96,46 @@ h2 {
 	line-height: 23px;
 }
 
-.main-content img {
-	float: left;
+/*.main-content img {
 	width: 160px;
 	margin: 10px;
 	border-radius: 15px;
 	height: auto;
-}
+}*/
 
+.about-img {
+	float: left;
+	width: 200px;
+	height: auto;
+	border-radius: 15px;
+	margin-right: 10px;
+}
 
 textarea {
 	height: 200px;
 	width: 600px;
 	margin-bottom: 10px;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 16px;
+	font-weight: 300;
 }
 
 Input {
 	margin-bottom: 10px;
 	width: 600px;
+	border-radius: 15px;
+	font-size: 16px;
+	padding: 5px;
+	font-weight: 300;
 }
 
 input[type=submit] {
 	width: 100px;
+}
+input[type=submit]:hover {
+	color: #007ab9;
+	background-color: #f4f4f4;
 }
 
 footer {
@@ -116,4 +144,55 @@ footer {
 	height: 100px;
 	background-color: #f4f4f4;
 	font-size: 12px;
+}
+
+footer p {
+	margin-top: 40px;
+}
+
+.portfolio {
+margin-left: -10px;
+}
+
+.portfolio-content {
+	margin-left: 30px;
+	max-width: 160px;
+		float: left;
+}
+
+.portfolio-content img {
+	width: 160px;
+	height: auto;
+	vertical-align: middle;
+	border-radius: 15px;
+	margin: 10px;
+}
+
+.portfolio-content p {
+	width: 160px;
+	line-height: 35px;
+	display: inline;
+	position: absolute;
+	background-color: #efefef;
+	margin-left: 10px;
+	margin-top: -55px;
+	text-align: center;
+}
+
+.portfolio-content p:hover {
+	color:  #007ab9;
+	opacity: .7;
+}
+
+input:hover {
+    background-color: #f4f4f4;
+}
+
+textarea:hover {
+    background-color: #f4f4f4;
+}
+
+
+label {
+	color: #007ab9;
 }
